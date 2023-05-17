@@ -455,7 +455,7 @@
         pop();
     }
 
-    function keyPressed() { //dibuja lineas al presionar I o L que salen de cada esfera blanca cuyo extremo Y seguira el movimiento del mouse
+    function keyPressed() { //dibuja lineas al presionar cualquier tecla que salen de cada esfera blanca cuyo extremo Y seguira el movimiento del mouse
         if (keyisPressed) {
             mostrarLine = !mostrarLine;
         }
