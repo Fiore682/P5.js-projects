@@ -456,7 +456,7 @@
     }
 
     function keyPressed() { //dibuja lineas al presionar I o L que salen de cada esfera blanca cuyo extremo Y seguira el movimiento del mouse
-        if (key == "A" || key == "a" || key == "s" || key == "S") {
+        if (keyisPressed) {
             mostrarLine = !mostrarLine;
         }
     }
