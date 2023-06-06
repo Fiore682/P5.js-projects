@@ -15,6 +15,18 @@ function draw() {
             var y = j * 50 + 128;
             var d = j * 7;
 
+            fill(j * 20);
+            noStroke();
+
+            rect(x, y, d);
+        }
+    }
+    for (var i = 0; i < 8; i++) {
+        for (var j = 0; j < 8; j++) {
+            var x = i * 50 + 81;
+            var y = j * 50 + 128;
+            var d = j * 5;
+
             fill(j * 30);
             noStroke();
 
