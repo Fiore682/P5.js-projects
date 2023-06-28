@@ -40,31 +40,28 @@ function draw() {
     if (keyIsPressed) {
         var lineSpacing = 600 / 380;
         var lineWidth = 0.15;
-
+        push();
+        stroke(0);
+        strokeWeight(lineWidth);
         for (let i = 0; i < 80; i++) {
             var y = lineSpacing * (i + 10);
-            drawLine(0, y, width, y, lineWidth);
-        }
 
-        function drawLine(x1, y1, x2, y2, lineWidth) {
-            stroke(0);
-            strokeWeight(lineWidth);
-            line(x1, y1, x2, y2);
+            line(0, y, width, y, lineWidth);
         }
+        pop();
     } else {
         var lineSpacing = 600 / 380;
         var lineWidth = 0.5;
 
+        push();
+        stroke(0);
+        strokeWeight(lineWidth);
         for (let i = 0; i < 80; i++) {
             var y = lineSpacing * (i + 10);
-            drawLine(0, y, width, y, lineWidth);
-        }
 
-        function drawLine(x1, y1, x2, y2, lineWidth) {
-            stroke(0);
-            strokeWeight(lineWidth);
-            line(x1, y1, x2, y2);
+            line(0, y, width, y, lineWidth);
         }
+        pop();
     }
     pop();
 
