@@ -45,3 +45,7 @@ function draw() {
         rotate(frameCount * s6.value());
     }
 }
+
+function keyTyped() {
+    saveCanvas("mandalasInteracivos", "png");
+}

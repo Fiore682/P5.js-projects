@@ -78,3 +78,7 @@ const system = {
         });
     },
 };
+
+function keyTyped() {
+    saveCanvas("campodeOndas", "png");
+}
