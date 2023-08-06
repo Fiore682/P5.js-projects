@@ -13,8 +13,6 @@ function setup() {
     p5 = createP("radio maximo").position(200, 800);
     s6 = createSlider(0.1, 1, 0.1, 0.05).position(380, 850);
     p6 = createP("velocidad de rotacion").position(380, 800);
-
-
 }
 
 function draw() {
